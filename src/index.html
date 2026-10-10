@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>دفتر | عروض الأسعار والفواتير</title>
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside>
+      <div class="brand"><img class="brand-logo" src="assets/logo.svg" alt="شعار دفتر" width="48" height="48" /><span>دفتر</span></div>
+      <p class="tagline">شغلك مرتب حساباتك واضحة</p>
+      <nav id="nav"></nav>
+      <div class="local-note">
+        <b>بياناتك عندك</b><br />محفوظة داخل هذا المتصفح<br /><small
+          id="save-state"
+          >حفظ نسخة احتياطية بانتظام يحافظ على البيانات</small
+        >
+      </div>
+    </aside>
+    <main>
+      <header>
+        <span>مساحة العمل</span
+        ><button id="new-document">＋ مستند جديد</button>
+      </header>
+      <div id="view"></div>
+    </main>
+    <dialog id="modal"></dialog>
+    <div id="toast" role="status"></div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
